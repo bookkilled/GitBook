@@ -1,0 +1,657 @@
+
+<!DOCTYPE HTML>
+<html lang="zh" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>1.1.2 Spread · Bookkilled学习笔记</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../../React/React.md" />
+    
+    
+    <link rel="prev" href="Rest.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="輸入並搜尋" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="javascript:;" target="_blank" class="custom-link">关于我们</a>
+        </li>
+    
+        
+        <li>
+            <a href="javascript:;" target="_blank" class="custom-link">好好学习，天天向上</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../ES6.md">
+            
+                <span>
+            
+                    
+                    1.0 ES6语法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    1.1 Object spread 语法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="Rest.html">
+            
+                <a href="Rest.html">
+            
+                    
+                    1.1.1 Rest
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.1.2" data-path="Spread.html">
+            
+                <a href="Spread.html">
+            
+                    
+                    1.1.2 Spread
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../React/React.md">
+            
+                <span>
+            
+                    
+                    2.0 React笔记
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../React/Redux.html">
+            
+                <a href="../../React/Redux.html">
+            
+                    
+                    2.2 Redux核心概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../React/React-Router.html">
+            
+                <a href="../../React/React-Router.html">
+            
+                    
+                    2.3 React-Router使用教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../Packing/packing.md">
+            
+                <span>
+            
+                    
+                    8.0 打包工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../Packing/saller.html">
+            
+                <a href="../../Packing/saller.html">
+            
+                    
+                    8.1 Saller
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../MarkDown/markdown.html">
+            
+                <a href="../../MarkDown/markdown.html">
+            
+                    
+                    9.0 Markdown语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../MAC/mac.html">
+            
+                <a href="../../MAC/mac.html">
+            
+                    
+                    10.0 MAC
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../MAC/killport.html">
+            
+                <a href="../../MAC/killport.html">
+            
+                    
+                    10.1 MAC关闭指定端口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../MAC/editicon.html">
+            
+                <a href="../../MAC/editicon.html">
+            
+                    
+                    10.2 Launchpad图标大小修改
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../MarkDown/gitbook.html">
+            
+                <a href="../../MarkDown/gitbook.html">
+            
+                    
+                    11.0 GitBook使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../HTTP/http.html">
+            
+                <a href="../../HTTP/http.html">
+            
+                    
+                    12.0 HTTP协议
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../../HTTP/cache.html">
+            
+                <a href="../../HTTP/cache.html">
+            
+                    
+                    12.1 强缓存和协商缓存
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../../Mine/Mine.html">
+            
+                <a href="../../Mine/Mine.html">
+            
+                    
+                    13.0 前端简历
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../../Mine/Kesan.html">
+            
+                <a href="../../Mine/Kesan.html">
+            
+                    
+                    13.1 科目三
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../../Favorite/lesson1.html">
+            
+                <a href="../../Favorite/lesson1.html">
+            
+                    
+                    14.0 吉他教学(玄武指弹吉他)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../../jianshu/List.html">
+            
+                <a href="../../jianshu/List.html">
+            
+                    
+                    15.0 文章集合
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../../jianshu/gohome.html">
+            
+                <a href="../../jianshu/gohome.html">
+            
+                    
+                    15.1 是的,我住在山里
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本書使用 GitBook 釋出
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >1.1.2 Spread</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="object-spread-initializer">Object Spread Initializer</h2>
+<p><a href="Spec.md#spread-properties">Specification</a></p>
+<h3 id="examples">Examples</h3>
+<p><strong>Shallow Clone (excluding prototype)</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> aClone = { ...a };
+</code></pre>
+<p><em>Desugars into:</em></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> aClone = <span class="hljs-built_in">Object</span>.assign({}, a);
+</code></pre>
+<p><strong>Merging Two Objects</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> ab = { ...a, ...b };
+</code></pre>
+<p><em>Desugars into:</em></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> ab = <span class="hljs-built_in">Object</span>.assign({}, a, b);
+</code></pre>
+<p><strong>Overriding Properties</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> aWithOverrides = { ...a, x: <span class="hljs-number">1</span>, y: <span class="hljs-number">2</span> };
+<span class="hljs-comment">// equivalent to</span>
+<span class="hljs-keyword">let</span> aWithOverrides = { ...a, ...{ x: <span class="hljs-number">1</span>, y: <span class="hljs-number">2</span> } };
+<span class="hljs-comment">// equivalent to</span>
+<span class="hljs-keyword">let</span> x = <span class="hljs-number">1</span>, y = <span class="hljs-number">2</span>, aWithOverrides = { ...a, x, y };
+</code></pre>
+<p><em>Desugars into:</em></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> aWithOverrides = <span class="hljs-built_in">Object</span>.assign({}, a, { x: <span class="hljs-number">1</span>, y: <span class="hljs-number">2</span> });
+</code></pre>
+<p><strong>Default Properties</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> aWithDefaults = { x: <span class="hljs-number">1</span>, y: <span class="hljs-number">2</span>, ...a };
+</code></pre>
+<p><em>Desugars into:</em></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> aWithDefaults = <span class="hljs-built_in">Object</span>.assign({}, { x: <span class="hljs-number">1</span>, y: <span class="hljs-number">2</span> }, a);
+<span class="hljs-comment">// which can be optimized without the empty object</span>
+<span class="hljs-keyword">let</span> aWithDefaults = <span class="hljs-built_in">Object</span>.assign({ x: <span class="hljs-number">1</span>, y: <span class="hljs-number">2</span> }, a);
+</code></pre>
+<p><strong>Multiple Merges</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// getters on a are executed twice</span>
+<span class="hljs-keyword">let</span> xyWithAandB = { x: <span class="hljs-number">1</span>, ...a, y: <span class="hljs-number">2</span>, ...b, ...a };
+</code></pre>
+<p><em>Desugars into:</em></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> xyWithAandB = <span class="hljs-built_in">Object</span>.assign({ x: <span class="hljs-number">1</span> }, a, { y: <span class="hljs-number">2</span> }, b, a);
+</code></pre>
+<p><strong>Getters on the Object Initializer</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// Does not throw because .x isn&apos;t evaluated yet. It&apos;s defined.</span>
+<span class="hljs-keyword">let</span> aWithXGetter = { ...a, get x() { throws <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">&apos;not thrown yet&apos;</span>) } };
+</code></pre>
+<p><em>Desugars into:</em></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> aWithXGetter = {};
+<span class="hljs-built_in">Object</span>.assign(aWithXGetter, a);
+<span class="hljs-built_in">Object</span>.defineProperty(aWithXGetter, <span class="hljs-string">&quot;x&quot;</span>, {
+  get(){ throws <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">&apos;not thrown yet&apos;</span>) },
+  enumerable : <span class="hljs-literal">true</span>,
+  configurable : <span class="hljs-literal">true</span>
+});
+</code></pre>
+<p><strong>Getters in the Spread Object</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// Throws because the .x property of the inner object is evaluated when the</span>
+<span class="hljs-comment">// property value is copied over to the surrounding object initializer.</span>
+<span class="hljs-keyword">let</span> runtimeError = { ...a, ...{ get x() { throws <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">&apos;thrown now&apos;</span>) } } };
+</code></pre>
+<p><strong>Setters Are Not Executed When They&apos;re Redefined</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> z = { set x() { <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(); }, ...{ x: <span class="hljs-number">1</span> } }; <span class="hljs-comment">// No error</span>
+</code></pre>
+<p><strong>Null/Undefined Are Ignored</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> emptyObject = { ...null, ...undefined }; <span class="hljs-comment">// no runtime error</span>
+</code></pre>
+<p><strong>Updating Deep Immutable Object</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> newVersion = {
+  ...previousVersion,
+  name: <span class="hljs-string">&apos;New Name&apos;</span>, <span class="hljs-comment">// Override the name property</span>
+  address: { ...previousVersion.address, zipCode: <span class="hljs-string">&apos;99999&apos;</span> } <span class="hljs-comment">// Update nested zip code</span>
+  items: [...previousVersion.items, { title: <span class="hljs-string">&apos;New Item&apos;</span> }] <span class="hljs-comment">// Add an item to the list of items</span>
+};
+</code></pre>
+<h3 id="prior-art">Prior Art</h3>
+<p><strong>Successor-ML</strong></p>
+<pre><code class="lang-ml">{ ... = a, x = <span class="hljs-number">1</span>, y = <span class="hljs-number">2</span> }
+</code></pre>
+<p><a href="http://successor-ml.org/index.php?title=Functional_record_extension_and_row_capture" target="_blank">http://successor-ml.org/index.php?title=Functional_record_extension_and_row_capture</a></p>
+<p><strong>Elm</strong></p>
+<pre><code class="lang-elm">{ a | x &lt;- <span class="hljs-number">1</span>, y &lt;- <span class="hljs-number">2</span> }
+</code></pre>
+<p><a href="http://elm-lang.org/learn/Records.elm#updating-records" target="_blank">http://elm-lang.org/learn/Records.elm#updating-records</a></p>
+<p><strong>OCaml</strong></p>
+<pre><code class="lang-ocaml">{ a <span class="hljs-keyword">with</span> x = <span class="hljs-number">1</span>; y = <span class="hljs-number">2</span> }
+</code></pre>
+<p><a href="https://realworldocaml.org/v1/en/html/records.html#functional-updates" target="_blank">https://realworldocaml.org/v1/en/html/records.html#functional-updates</a></p>
+<p><strong>Haskell</strong></p>
+<pre><code class="lang-haskell"><span class="hljs-title">a</span> { x = <span class="hljs-number">1</span>, y = <span class="hljs-number">2</span> }
+</code></pre>
+<p><a href="http://www.haskell.org/haskellwiki/Default_values_in_records" target="_blank">http://www.haskell.org/haskellwiki/Default_values_in_records</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Rest.html" class="navigation navigation-prev " aria-label="Previous page: 1.1.1 Rest">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../../React/React.md" class="navigation navigation-next " aria-label="Next page: 2.0 React笔记">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"1.1.2 Spread","level":"1.2.1.2","depth":3,"next":{"title":"2.0 React笔记","level":"1.3","depth":1,"path":"React/React.md","ref":"React/React.md","articles":[{"title":"2.2 Redux核心概念","level":"1.3.1","depth":2,"path":"React/Redux.md","ref":"React/Redux.md","articles":[]},{"title":"2.3 React-Router使用教程","level":"1.3.2","depth":2,"path":"React/React-Router.md","ref":"React/React-Router.md","articles":[]}]},"previous":{"title":"1.1.1 Rest","level":"1.2.1.1","depth":3,"path":"ES6/es6-rest-spread/Rest.md","ref":"ES6/es6-rest-spread/Rest.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Bookkilled学习笔记","language":"zh","links":{"sidebar":{"关于我们":"javascript:;","好好学习，天天向上":"javascript:;"},"sharing":{"google":null,"facebook":null,"twitter":null,"weibo":null,"all":null}},"gitbook":">= 3.1.0","description":"前端技术、react、react-router、redux、ES5/6、H5、CSS3、Javascript、MAC、chrome、IDE"},"file":{"path":"ES6/es6-rest-spread/Spread.md","mtime":"2016-06-13T11:16:26.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-14T10:16:57.395Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
